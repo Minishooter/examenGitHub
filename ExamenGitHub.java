@@ -26,7 +26,16 @@ public class ExamenGitHub {
             break;    
             
             case 3:
-                
+            System.out.print("Introduce una frase: ");
+            String fraseParaContar = scanner.nextLine();
+            System.out.print("Introduce una letra: ");
+            char letra = scanner.nextLine().charAt(0);
+            int contador = 0;
+            for (char c : fraseParaContar.toCharArray()) {
+            if (c == letra) {
+            contador++;
+             }
+            }
                 break;
             case 4:    
  
