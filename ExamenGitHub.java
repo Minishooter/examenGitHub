@@ -29,6 +29,7 @@ public class ExamenGitHub {
             String palabra1 = scanner.nextLine();
             System.out.print("Introduce la segunda palabra: ");
             String palabra2 = scanner.nextLine();
+            System.out.println("Resultado: " + palabra1 + palabra2);
             break;
             
             case 2:
