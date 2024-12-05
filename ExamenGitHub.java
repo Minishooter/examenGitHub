@@ -33,7 +33,10 @@ public class ExamenGitHub {
             break;
             
             case 2:
-                
+            System.out.print("Introduce una frase: ");
+            String frase = scanner.nextLine();
+            String[] palabras = frase.split("\\s+");
+            System.out.println("Número de palabras: " + palabras.length);
             break;    
             
             case 3:
