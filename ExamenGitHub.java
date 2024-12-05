@@ -30,7 +30,7 @@ public class ExamenGitHub {
                 break;
             case 4:    
  
-                
+             System.out.println("¡Adiós!");
             default:
             System.out.println("Opción no válida.Selecciona una opción del 1 al 4.");
         }
