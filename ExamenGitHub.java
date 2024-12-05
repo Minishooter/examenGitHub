@@ -37,13 +37,23 @@ public class ExamenGitHub {
             break;    
             
             case 3:
-                
+            System.out.println("Introduce una frase: ");
+            String fraseParaContar = scanner.nextLine();
+            System.out.print("Introduce una letra: ");
+            char letra = scanner.nextLine().charAt(0);
+            int contador = 0;
+            for (char c : fraseParaContar.toCharArray()) {
+            if (c == letra) {
+            contador++;
+             }
+            }
+            System.out.println("La letra '" + letra + "' aparece " + contador + " veces.");
             break;
-            
+                
             case 4:    
  
              break;
-             
+                         
             default:
             System.out.println("Opción no válida.Selecciona una opción del 1 al 4.");
             break;
