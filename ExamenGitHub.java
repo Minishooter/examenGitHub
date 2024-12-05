@@ -22,7 +22,9 @@ public class ExamenGitHub {
             break;
             
             case 2:
-                
+            System.out.print("Introduce una frase: ");
+            String frase = scanner.nextLine();
+            String[] palabras = frase.split("\\s+");
             break;    
             
             case 3:
