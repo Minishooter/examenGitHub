@@ -14,11 +14,21 @@ public class ExamenGitHub {
             int opcion = scanner.nextInt();
         
         do{
-        
-        switch (opcion){
+            System.out.println("------- MENÚ OPCIONES---------");
+            System.out.println("1. Concatenar dos palabras");
+            System.out.println("2. Visualizar el número de palabras de una frase");
+            System.out.println("3. Contar cuántas veces aparece una letra en una frase");
+            System.out.println("4. Salir");
+            System.out.print("Selecciona una opción (1-4): ");
+            opcion=scanner.nextInt();
+            scanner.nextLine();
+            switch (opcion){
             
             case 1:
-                
+            System.out.print("Introduce la primera palabra: ");
+            String palabra1 = scanner.nextLine();
+            System.out.print("Introduce la segunda palabra: ");
+            String palabra2 = scanner.nextLine();
             break;
             
             case 2:
@@ -27,15 +37,19 @@ public class ExamenGitHub {
             
             case 3:
                 
-                break;
+            break;
+            
             case 4:    
  
-                
+             break;
+             
             default:
             System.out.println("Opción no válida.Selecciona una opción del 1 al 4.");
+            break;
+               
         }
         
-        
+        }while(opcion!=4);
         
         
     }
