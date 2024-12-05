@@ -1,0 +1,12 @@
+l programa es un menú interactivo que realiza varias operaciones con texto. Funciona así:
+    Muestra un menú con opciones: Concatenar palabras, contar palabras en una frase, contar letras en una frase o salir.
+    El usuario elige una opción ingresando un número del 1 al 4.
+    Según la opción seleccionada:
+        Opción 1: Pide dos palabras, las une y muestra el resultado.
+        Opción 2: Pide una frase, cuenta cuántas palabras tiene y muestra el número.
+        Opción 3: Pide una frase y una letra, cuenta cuántas veces aparece la letra en la frase y muestra el resultado.
+        Opción 4: Muestra un mensaje de despedida y cierra el programa.
+    Si elige un número inválido, muestra un mensaje de error y vuelve a mostrar el menú.
+    El programa se repite hasta que el usuario elige la opción "Salir".
+
+Es un sistema simple que permite trabajar con texto y practicar conceptos básicos de programación como bucles, condicionales y entrada de usuario.
